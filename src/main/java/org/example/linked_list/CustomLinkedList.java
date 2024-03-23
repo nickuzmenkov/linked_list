@@ -2,6 +2,13 @@ package org.example.linked_list;
 
 import java.util.Objects;
 
+/**
+ * A linked list. Implements {@link CustomList CustomList} interface.
+ *
+ * @param <E> the type of elements in this list
+ * @author Nick Kuzmenkov
+ * @see java.util.LinkedList LinkedList
+ */
 public class CustomLinkedList<E> implements CustomList<E> {
     private Node<E> head;
 
